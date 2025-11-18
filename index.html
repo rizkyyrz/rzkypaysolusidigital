@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/fonts-icons.css">
   <link rel="stylesheet" href="css/plugin-resets.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css"><!-- file CSS custom yang kamu buat -->
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/color.css">
 </head>
@@ -48,11 +48,7 @@
     <div id="loader" class="loader-container">
       <div class="holder">
         <div class="la-line-scale la-2x">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div></div><div></div><div></div><div></div><div></div>
         </div>
       </div>
     </div>
@@ -121,8 +117,7 @@
             <div class="col-xs-12 col-sm-6 col-md-7">
               <span class="title">PT RZKYPay Solusi Digital</span>
               <h1 class="heading text-uppercase">
-                Let’s get started with
-                <span class="main-color">Best Digital Solutions</span>
+                Let’s get started with <span class="main-color">Best Digital Solutions</span>
               </h1>
               <span class="divider white"></span>
               <div class="btn-holder">
@@ -320,19 +315,27 @@
                 Tabel harga kami yang kompetitif menawarkan berbagai pilihan paket yang sesuai dengan kebutuhan Anda,
                 memberikan nilai luar biasa dengan kualitas layanan terbaik di kelasnya.
               </p>
+              <p class="price-disclaimer">
+                <em>*Harga dapat berubah sewaktu-waktu tanpa pemberitahuan. Silakan hubungi kami untuk harga terbaru.</em>
+              </p>
             </div>
           </header>
 
           <div class="row">
-            <!-- Price box: YouTube -->
-            <div class="col-xs-12 col-sm-6 col-md-4 pad-bottom-sm">
+
+            <!-- YouTube Premium -->
+            <div class="col-xs-12 col-sm-6 col-md-3 pad-bottom-sm">
               <div class="price-box">
                 <header class="header">
                   <strong class="title text-uppercase">YouTube Premium</strong>
+
                   <span class="price-txt">
                     <span class="price main-color">IDR 15.000</span>
                     <span class="txt"> / 3 Month</span>
                   </span>
+
+                  <small class="price-note">*Harga dapat berubah sewaktu-waktu</small>
+
                   <p>Best package for YouTube Premium</p>
                 </header>
                 <div class="box">
@@ -349,15 +352,55 @@
               </div>
             </div>
 
-            <!-- Price box: Netflix -->
-            <div class="col-xs-12 col-sm-6 col-md-4 pad-bottom-sm">
+            <!-- Social Media Marketing -->
+            <div class="col-xs-12 col-sm-6 col-md-3 pad-bottom-sm">
+              <div class="price-box featured">
+                <header class="header">
+                  <strong class="title text-uppercase">Social Media Marketing</strong>
+
+                  <span class="price-txt">
+                    <span class="price main-color">IDR 150.000</span>
+                    <span class="txt"> / Month</span>
+                  </span>
+
+                  <small class="price-note">*Harga dapat berubah sewaktu-waktu</small>
+
+                  <p>Paket terbaik untuk branding dan promosi digital.</p>
+                </header>
+                <div class="box">
+                  <h3 class="text-uppercase">SMM Management</h3>
+                  <span class="divider"></span>
+                  <p>
+                    Layanan lengkap untuk mengelola dan meningkatkan akun media sosial:
+                    desain konten, posting rutin, optimasi, dan laporan bulanan.
+                  </p>
+                  <ul class="list list-unstyled" style="margin-bottom: 10px;">
+                    <li><i class="fa fa-check main-color"></i> 12 Konten Profesional / Bulan</li>
+                    <li><i class="fa fa-check main-color"></i> Caption Copywriting</li>
+                    <li><i class="fa fa-check main-color"></i> Penjadwalan Posting</li>
+                    <li><i class="fa fa-check main-color"></i> Optimasi Hashtag</li>
+                  </ul>
+                  <!-- pakai nomor WA yang sama, bisa lewat link wa.me -->
+                  <a href="https://wa.me/6285155322281" class="order text-uppercase lightbox" target="_blank" rel="noopener noreferrer">
+                    Order Social Media Marketing...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Netflix -->
+            <div class="col-xs-12 col-sm-6 col-md-3 pad-bottom-sm">
               <div class="price-box">
                 <header class="header">
                   <strong class="title text-uppercase">Netflix</strong>
+
                   <span class="price-txt">
                     <span class="price main-color">IDR 25.000</span>
                     <span class="txt"> / 1 Month</span>
                   </span>
+
+                  <small class="price-note">*Harga dapat berubah sewaktu-waktu</small>
+
                   <p>Best package for Netflix</p>
                 </header>
                 <div class="box">
@@ -374,15 +417,19 @@
               </div>
             </div>
 
-            <!-- Price box: Spotify -->
-            <div class="col-xs-12 col-sm-6 col-md-4 pad-bottom-sm">
+            <!-- Spotify -->
+            <div class="col-xs-12 col-sm-6 col-md-3 pad-bottom-sm">
               <div class="price-box">
                 <header class="header">
                   <strong class="title text-uppercase">Spotify Premium</strong>
+
                   <span class="price-txt">
                     <span class="price main-color">IDR 10.000</span>
                     <span class="txt"> / 3 Month</span>
                   </span>
+
+                  <small class="price-note">*Harga dapat berubah sewaktu-waktu</small>
+
                   <p>Best package for Spotify Premium</p>
                 </header>
                 <div class="box">
@@ -398,6 +445,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>
@@ -415,9 +463,15 @@
                 Dapatkan konsultasi gratis hari ini dan temukan bagaimana kami dapat membantu Anda mencapai tujuan bisnis
                 Anda dengan solusi pemasaran multi media yang efektif dan inovatif dari PT RZKYPay Solusi Digital.
               </p>
-              <button class="btn btn-default main-bg-color text-uppercase smooth" data-scroll-nav="1" type="button">
-                Click here
-              </button>
+              <!-- pakai nomor WhatsApp yang sama dengan header -->
+              <a
+                href="https://wa.me/6285155322281"
+                class="btn btn-default main-bg-color text-uppercase"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Chat via WhatsApp
+              </a>
             </div>
           </div>
         </div>
@@ -481,7 +535,7 @@
     <!-- Popup holder -->
     <div class="popup-holder">
       <div id="popup1" class="lightbox">
-        <!-- content popup di sini -->
+        <!-- popup content -->
       </div>
     </div>
   </div>
