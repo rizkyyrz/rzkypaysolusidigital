@@ -1,0 +1,14 @@
+/* Price note - info harga bisa berubah */
+.price-note {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* (opsional) highlight untuk paket SMM */
+.price-box.featured {
+  border: 2px solid #ffc800;
+  transform: scale(1.03);
+}
